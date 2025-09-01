@@ -262,8 +262,8 @@ Let's also look to see what the most common pet names are for various species.
 For this we need to first `group_by()` the `species`, and then do the same counting we did before.
 
 Answer: Cat: Lunca, Lucy, Lily, and Max.
-  Dog: Lucy, Charlie, Bella, Luna, and Daisy
-  Goat: All are of equal frequency (1)
+  Dog: Lucy, Charlie, Bella, Luna, and Daisy.
+  Goat: All are of equal frequency (1).
   
 ```{marginfigure}
 Looks like many of those NAs were cats. Poor unnamed kitties…
@@ -354,7 +354,13 @@ ggplot(comb_name_props, aes(x = cat_prop, y = dog_prop)) +
 ```
 
 1.  What names are more common for cats than dogs? The ones above the line or the ones below the line?
+
+Those below the line are names more common for cats.
+
 2.  Is the relationship between the two variables (proportion of cats with a given name and proportion of dogs with a given name) positive or negative? What does this mean in context of the data?
+
+The relationship is positive. As there are more cats with a particular name, there is a higher chance of there being a larger number of dogs with that same name. 
+
 
 🧶 ✅ ⬆️ *Now is a good time to commit and push your changes to GitHub with an appropriate commit message. Commit and push all changed files so that your Git pane is cleared up afterwards. Make sure that your last push to the repo comes before the deadline. You should confirm that what you committed and pushed are indeed in your repo that we will see by visiting your repo on GitHub.*
 
